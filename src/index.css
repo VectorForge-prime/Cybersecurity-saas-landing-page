@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: #020617;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button {
+  cursor: pointer;
+}
+
+::selection {
+  background: rgba(34, 211, 238, 0.25);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020617;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #334155;
+}
